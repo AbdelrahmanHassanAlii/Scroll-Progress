@@ -1,0 +1,23 @@
+/*
+# Author: Abdelrahman Hassan Ali
+# GitHub: https://github.com/abdo100300500
+# Date  : 29/8/2023 
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    min-height: 5000px;
+    background-color: #EEE;
+}
+
+.scroller{
+    height: 5px;
+    background-color: #0075FF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
