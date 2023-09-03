@@ -1,17 +1,32 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-html{
-    min-height: 5000px;
-    background-color: #EEE;
+html {
+  min-height: 5000px;
+  background-color: #eee;
 }
 
-.scroller{
-    height: 5px;
-    background-color: #0075FF;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
+.scroller {
+  height: 10px;
+  background-color: #0075ff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.text {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-weight: bold;
+  color: #0075ff;
+  margin: auto;
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
 }
